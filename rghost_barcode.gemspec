@@ -8,7 +8,7 @@ spec = Gem::Specification.new do |s|
 RGhost Barcode is adapter from Barcode Writer. The Barcode Writer in Pure
 Postscript is an award-winning open source barcode maker, as used by NASA.
 EOF
-  s.hompage = 'http://github.com/jmcnevin/rghost-barcode'
+  s.homepage = 'http://github.com/jmcnevin/rghost-barcode'
   s.name = 'RGhost Barcode'
   s.version = '0.8.5'
   s.require_path = '.'
