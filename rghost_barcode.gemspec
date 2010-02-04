@@ -9,7 +9,7 @@ RGhost Barcode is adapter from Barcode Writer. The Barcode Writer in Pure
 Postscript is an award-winning open source barcode maker, as used by NASA.
 EOF
   s.homepage = 'http://github.com/jmcnevin/rghost-barcode'
-  s.name = 'RGhost Barcode'
+  s.name = 'jmcnevin-rghost_barcode'
   s.version = '0.8.5'
   s.require_path = '.'
 end
