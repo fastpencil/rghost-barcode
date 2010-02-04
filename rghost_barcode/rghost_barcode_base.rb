@@ -179,7 +179,7 @@ module RGhost::Barcode
       [:scale, :enable, :text,:guard,:border, :x, :y, :rotate].each{|v| @options.delete v}
       super(@options)
       @self_name=self.class.to_s.downcase.split(/::/).last
-      RGhost::Config::GS[:preload] << @self_name
+      # RGhost::Config::GS[:preload] << @self_name
     end
   
     def make
@@ -201,7 +201,7 @@ module RGhost::Barcode
     def ps
       formated_params=[ @text.map, @border.map, @guard.map, self.map].join(" ")
       
-      "gsave newpath #{@point.ps} #{@rotate} #{@scale} 0 0 moveto (#{@barcode}) (#{formated_params}) #{@self_name} barcode closepath grestore"
+      "gsave newpath #{@point.ps} #{@rotate} #{@scale} 0 0 moveto (#{@barcode}) (#{formated_params}) #{@self_name} closepath grestore"
     end
     
     

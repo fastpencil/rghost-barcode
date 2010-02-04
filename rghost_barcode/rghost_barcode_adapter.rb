@@ -1,13 +1,12 @@
 
 
 RGhost::Config::GS[:extensions] << File.join(File.dirname(__FILE__),'ps')
-RGhost::Config::GS[:preload] << :render
+RGhost::Config::GS[:preload] << :barcode
 
 class RGhost::Document 
   
   #Facade for RGhost::Barcode::Isbn
   def barcode_isbn(barcode_string,options={})
-    set RGhost::Load.library(:ean13)
     set RGhost::Barcode::Isbn.new(barcode_string,options)
   end
 
