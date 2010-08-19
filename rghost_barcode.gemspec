@@ -1,7 +1,7 @@
 require 'rake'
 
 spec = Gem::Specification.new do |s|
-  s.authors = ['Shairon Toledo', 'Jeremy McNevin']
+  s.authors = ['Shairon Toledo','Jeremy McNevin']
   s.email = ['shairon.toledo@gmail.com','jeremy@spokoino.net']
   s.add_dependency('rghost')
   s.summary = <<-EOF
@@ -11,5 +11,4 @@ EOF
   s.homepage = 'http://github.com/jmcnevin/rghost-barcode'
   s.name = 'jmcnevin-rghost_barcode'
   s.version = '0.8.6'
-  s.require_path = '.'
 end
