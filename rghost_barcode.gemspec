@@ -12,11 +12,11 @@ Postscript is an award-winning open source barcode maker, as used by NASA.
 }
   s.email = ["shairon.toledo@gmail.com", "jeremy@spokoino.net"]
   s.extra_rdoc_files = ["README.textile", "lib/rghost_barcode.rb", "lib/rghost_barcode/ps/barcode.ps", "lib/rghost_barcode/rghost_barcode_adapter.rb", "lib/rghost_barcode/rghost_barcode_base.rb", "lib/rghost_barcode/rghost_barcode_classes.rb", "lib/rghost_barcode/rghost_barcode_examples.rb", "lib/rghost_barcode/rghost_barcode_version.rb"]
-  s.files = ["Manifest", "README.textile", "Rakefile", "jmcnevin-rghost_barcode.gemspec", "lib/rghost_barcode.rb", "lib/rghost_barcode/ps/barcode.ps", "lib/rghost_barcode/rghost_barcode_adapter.rb", "lib/rghost_barcode/rghost_barcode_base.rb", "lib/rghost_barcode/rghost_barcode_classes.rb", "lib/rghost_barcode/rghost_barcode_examples.rb", "lib/rghost_barcode/rghost_barcode_version.rb"]
-  s.homepage = %q{http://github.com/jmcnevin/rghost-barcode}
-  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Jmcnevin-rghost_barcode", "--main", "README.textile"]
+  s.files = ["README.textile", "rghost_barcode.gemspec", "lib/rghost_barcode.rb", "lib/rghost_barcode/ps/barcode.ps", "lib/rghost_barcode/rghost_barcode_adapter.rb", "lib/rghost_barcode/rghost_barcode_base.rb", "lib/rghost_barcode/rghost_barcode_classes.rb", "lib/rghost_barcode/rghost_barcode_examples.rb", "lib/rghost_barcode/rghost_barcode_version.rb"]
+  s.homepage = %q{http://github.com/fastpencil/rghost-barcode}
+  s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "rghost_barcode", "--main", "README.textile"]
   s.require_paths = ["lib"]
-  s.rubyforge_project = %q{jmcnevin-rghost_barcode}
+  s.rubyforge_project = %q{rghost_barcode}
   s.rubygems_version = %q{1.3.7}
   s.summary = %q{RGhost Barcode is adapter from Barcode Writer. The Barcode Writer in Pure Postscript is an award-winning open source barcode maker, as used by NASA.}
 
